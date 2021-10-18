@@ -1,0 +1,207 @@
+/*               Header             */
+#header .end .col-2 {
+  padding-top: 40px;
+  border-left: 1px solid #eeeeee;
+  transform: translateX(100px);
+  -webkit-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -o-transform: translateX(100px);
+}
+
+#header .end .col-2 .header-end .search {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+#header .end .col-2 .header-end .lock {
+  display: inline-block;
+  font-size: 18px;
+}
+
+#header .end .col-2 .header-end .lock a {
+  color: #444;
+}
+
+.card {
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  z-index: 999;
+}
+
+.card .content {
+  border-top: 3px solid #1abc9c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+.card .content h3 {
+  color: #444;
+  padding: 0 20px 15px;
+  border-bottom: 1px solid #dad9d9;
+}
+
+.card .content .image-price {
+  padding: 15px 20px 15px;
+  border-bottom: 1px solid #dad9d9;
+}
+
+.card .content .image-price .first-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dad9d9;
+}
+
+.card .content .image-price .first-picture .image {
+  width: 75px;
+  height: 55px;
+  border: 2px solid #eee;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.card .content .image-price .first-picture .image img {
+  max-width: 100%;
+  display: block;
+  width: 51px;
+  height: 51px;
+}
+
+.card .content .image-price .first-picture .image:hover {
+  border: 2px solid #1abc9c;
+}
+
+.card .content .image-price .first-picture .price {
+  padding-left: 15px;
+}
+
+.card .content .image-price .first-picture .price a {
+  display: block;
+  font-size: 16px;
+  line-height: 1.25rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.card .content .image-price .first-picture .price a:hover {
+  color: #1abc9c;
+}
+
+.card .content .image-price .first-picture .price span {
+  font-size: 14px;
+  color: #999;
+}
+
+.card .content .image-price .second-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+}
+
+.card .content .image-price .second-picture .image {
+  width: 55px;
+  height: 55px;
+  border: 2px solid #eee;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.card .content .image-price .second-picture .image img {
+  max-width: 100%;
+  display: block;
+  width: 51px;
+  height: 51px;
+}
+
+.card .content .image-price .second-picture .image:hover {
+  border: 2px solid #1abc9c;
+}
+
+.card .content .image-price .second-picture .price {
+  padding-left: 15px;
+}
+
+.card .content .image-price .second-picture .price a {
+  display: block;
+  font-size: 16px;
+  line-height: 1.25rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.card .content .image-price .second-picture .price a:hover {
+  color: #1abc9c;
+}
+
+.card .content .image-price .second-picture .price span {
+  font-size: 14px;
+  color: #999;
+}
+
+.card .content .general-price {
+  padding: 15px 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .content .general-price span {
+  font-size: 26px;
+  color: #1abc9c;
+}
+
+.card .content .general-price a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-color: #1abc9c;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

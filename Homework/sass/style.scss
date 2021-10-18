@@ -1,0 +1,170 @@
+/*               Header             */
+
+#header .end .col-2 {
+  padding-top: 40px;
+  border-left: 1px solid rgb(238, 238, 238);
+  transform: translateX(100px);
+  -webkit-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -o-transform: translateX(100px);
+  .header-end {
+    .search {
+      display: inline-block;
+      padding: 0 20px;
+      font-size: 18px;
+    }
+    .lock {
+      display: inline-block;
+      font-size: 18px;
+      a {
+        color: #444;
+      }
+    }
+  }
+}
+
+.card {
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  z-index: 999;
+
+  .content {
+    border-top: 3px solid #1abc9c;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    h3 {
+      color: #444;
+      padding: 0 20px 15px;
+      border-bottom: 1px solid rgb(218, 217, 217);
+    }
+    .image-price {
+      padding: 15px 20px 15px;
+      border-bottom: 1px solid rgb(218, 217, 217);
+      .first-picture {
+        display: flex;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(218, 217, 217);
+        .image {
+          width: 75px;
+          height: 55px;
+          border: 2px solid #eee;
+          cursor: pointer;
+          transition: all 0.3s linear;
+          -webkit-transition: all 0.3s linear;
+          -moz-transition: all 0.3s linear;
+          -ms-transition: all 0.3s linear;
+          -o-transition: all 0.3s linear;
+
+          img {
+            max-width: 100%;
+            display: block;
+            width: 51px;
+            height: 51px;
+          }
+          &:hover {
+            border: 2px solid #1abc9c;
+          }
+        }
+        .price {
+          padding-left: 15px;
+          a {
+            display: block;
+            font-size: 16px;
+            line-height: 1.25rem;
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 5px;
+            text-decoration: none;
+            &:hover {
+              color: #1abc9c;
+            }
+          }
+          span {
+            font-size: 14px;
+            color: #999;
+          }
+        }
+      }
+      .second-picture {
+        display: flex;
+        padding-top: 15px;
+
+        .image {
+          width: 55px;
+          height: 55px;
+          border: 2px solid #eee;
+          cursor: pointer;
+          transition: all 0.3s linear;
+          -webkit-transition: all 0.3s linear;
+          -moz-transition: all 0.3s linear;
+          -ms-transition: all 0.3s linear;
+          -o-transition: all 0.3s linear;
+          img {
+            max-width: 100%;
+            display: block;
+            width: 51px;
+            height: 51px;
+          }
+          &:hover {
+            border: 2px solid #1abc9c;
+          }
+        }
+        .price {
+          padding-left: 15px;
+          a {
+            display: block;
+            font-size: 16px;
+            line-height: 1.25rem;
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 5px;
+            text-decoration: none;
+            &:hover {
+              color: #1abc9c;
+            }
+          }
+          span {
+            font-size: 14px;
+            color: #999;
+          }
+        }
+      }
+    }
+    .general-price {
+      padding: 15px 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        font-size: 26px;
+        color: #1abc9c;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        background-color: #1abc9c;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.hide {
+  display: none;
+}
