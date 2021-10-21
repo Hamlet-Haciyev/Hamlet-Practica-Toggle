@@ -11,11 +11,12 @@ btn.addEventListener("click", (e) => {
     let options = document.getElementsByClassName("option");
 
     for (let i = 0; i < options.length; i++) {
-        console.log(options[i].value);
+        // console.log(options[i].value);
+        let result = options[i].textContent;
         if(options[i].value == select){
-            console.log(options[i]);
+            console.log(result);
         }        
     }
-    // console.log(input.value);
-    // console.log(text.value);
+    console.log(input.value);
+    console.log(text.value);
 })
